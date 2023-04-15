@@ -160,12 +160,10 @@ input[type="text"], input[type="number"], input[type="date"], select {
     font-size: 16px;
     margin-bottom: 16px;
     margin-left: 16px;
-    width: 100%
   }
   
 input[type="radio"]{
     margin-left: 16px;
-    width: 100%
 }    
 
 
