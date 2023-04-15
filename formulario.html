@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Escola Primeiros Passos</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="formulario.html">Matrícula</a>
+        <a href="localizacao.html">Localização</a>
+    </nav>
+    <main>
+        <h1>
+            Formulário de Matrícula
+        </h1>
+        <form>
+            <p>
+                Nome: <br>
+                <input type="text" id="nome" name="nome">
+            </p>
+            
+            <p>
+                Data de nascimento: <br>
+                <input type="date" name="nascimento" id="nascimento">
+            </p>
+            <p>
+                Sexo: <br>
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                País de nascimento: <br>
+                <input type="text" name="nacionalidade" id="nacionalidade">
+            </p>
+
+            <p>
+                Série: <br>
+                <select id="turma" name="turma">
+                  <option value="1">Berçário</option>
+                  <option value="2">Maternal</option>
+                  <option value="3">Grupo 3</option>
+                  <option value="4">Grupo 4</option>
+                  <option value="5">Grupo 5</option>
+                </select>
+            </p>
+            
+            <p>
+                Nome do responsável: <br>
+                <input type="text" id="responsavel" name="responsavel">
+            </p>
+
+            <p>
+                CPF do responsável: <br>
+                <input type="number" name="cpf" id="cpf">
+            </p>
+            <p>
+                Número de contato: <br>
+                <input type="number" name="telefone" id="tel">
+            </p>
+            <p>
+                Contratante: <br>
+                <input type="text" id="contratante" name="contratante">
+            </p>
+            <p>
+                CPF do contratante: <br>
+                <input type="number" name="cpf" id="cpf2">
+            </p>
+            <p>
+                Número de contato: <br>
+                <input type="number" name="telefone" id="tel2">
+            </p>
+
+          </form>
+        
+        <p>
+            <input type="button" value="Enviar" onclick="enviar()">
+        </p>
+    </main>
+    <footer>
+        Desenvolvido por Michelly Cruz
+    </footer>
+
+   
+</body>
+</html>
