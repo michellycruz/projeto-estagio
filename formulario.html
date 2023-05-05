@@ -18,76 +18,71 @@
         <a href="formulario.html">Matrícula</a>
         <a href="localizacao.html">Localização</a>
     </nav>
-    <main>
-        <h1>
-            Formulário de Matrícula
-        </h1>
-        <form action="matricula.php" autocomplete="off">
-            <p>
-                <label for="inome">Nome:</label> <br>
-                <input type="text" id="inome" name="nome">
-            </p>
+        <main>
+            <h1>
+                Formulário de Matrícula
+            </h1>
+            <form action="matricula.php" autocomplete="off">
+                <p>
+                    <label for="inome">Nome:</label> <br>
+                    <input type="text" id="inome" name="nome" required>
+                </p>
             
-            <p>
-                <label for="inascimento">Data de nascimento:</label> <br>
-                <input type="date" name="nascimento" id="inascimento">
-            </p>
-            <p>
-                Sexo: <br>
-                <input type="radio" name="radsex" id="mas" checked>
-                <label for="mas">Masculino</label>
-                <input type="radio" name="radsex" id="fem">
-                <label for="fem">Feminino</label>
-            </p>
-            <p>
-                <label for="inacionalidade">País de nascimento:</label> <br>
-                <input type="text" name="nacionalidade" id="inacionalidade">
-            </p>
-
-            <p>
-                <label for="iturma">Turma:</label> <br>
-                <select id="iturma" name="turma">
-                  <option value="1">Berçário</option>
-                  <option value="2">Maternal</option>
-                  <option value="3">Grupo 3</option>
-                  <option value="4">Grupo 4</option>
-                  <option value="5">Grupo 5</option>
-                </select>
-            </p>
+                <p>
+                    <label for="inascimento">Data de nascimento:</label> <br>
+                    <input type="date" name="nascimento" id="inascimento" required>
+                </p>
+                <p>
+                    Sexo: <br>
+                    <input type="radio" name="radsex" id="mas" checked>
+                    <label for="mas">Masculino</label>
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem">Feminino</label>
+                </p>
+                <p>
+                    <label for="inacionalidade">País de nascimento:</label> <br>
+                    <input type="text" name="nacionalidade" id="inacionalidade" required>
+                </p>
+                <p>
+                    <label for="iturma">Turma:</label> <br>
+                    <select id="iturma" name="turma">
+                      <option value="1">Berçário</option>
+                      <option value="2">Maternal</option>
+                      <option value="3">Grupo 3</option>
+                      <option value="4">Grupo 4</option>
+                      <option value="5">Grupo 5</option>
+                    </select>
+                </p>
             
-            <p>
-                <label for="iresponsavel">Nome do responsável:</label> <br>
-                <input type="text" id="iresponsavel" name="responsavel">
-            </p>
-
-            <p>
-                <label for="icpf">CPF do responsável:</label> <br>
-                <input type="number" name="cpf" id="icpf">
-            </p>
-            <p>
-                <label for="itel">Número de contato:</label> <br>
-                <input type="number" name="telefone" id="itel">
-            </p>
-            <p>
-                <label for="icontratante">Contratante:</label> <br>
-                <input type="text" id="icontratante" name="contratante">
-            </p>
-            <p>
-                <label for="icpf2">CPF do contratante:</label> <br>
-                <input type="number" name="cpf" id="icpf2">
-            </p>
-            <p>
-                <label for="itel2">Número de contato:</label> <br>
-                <input type="number" name="telefone" id="itel2">
-            </p>
-
-            <p>
-                <input type="submit" value="Enviar" onclick="enviar()">
-            </p>
-
-          </form>
-        
-    </main>
+                <p>
+                    <label for="iresponsavel">Nome do responsável:</label> <br>
+                    <input type="text" id="iresponsavel" name="responsavel" required>
+                </p>
+                <p>
+                    <label for="icpf">CPF do responsável:</label> <br>
+                    <input type="number" name="cpf" id="icpf" required>
+                </p>
+                <p>
+                    <label for="itel">Número de contato:</label> <br>
+                    <input type="number" name="telefone" id="itel" required>
+                </p>
+                <p>
+                    <label for="icontratante">Contratante:</label> <br>
+                    <input type="text" id="icontratante" name="contratante" required>
+                </p>
+                <p>
+                    <label for="icpf2">CPF do contratante:</label> <br>
+                    <input type="number" name="cpf" id="icpf2" required>
+                </p>
+                <p>
+                    <label for="itel2">Número de contato:</label> <br>
+                    <input type="number" name="telefone" id="itel2" required>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar" onclick="enviar()" class="botao">
+                </p>
+              </form>
+        </main>
     <footer>
         Desenvolvido por Michelly Cruz
     </footer>

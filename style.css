@@ -172,7 +172,7 @@ select{
     margin-left: 16px;
 }  
 
-input[type="button"]{
+.botao{
     background-color: #04B2D9; border-radius: 6px; 
     padding: 10px; 
     cursor: pointer; 
@@ -183,11 +183,11 @@ input[type="button"]{
     margin: auto;
 }
 
-input[type="button"]:hover{
+.botao:hover{
     background-color: #00677e;
 }
 
-input[type="button"]:active{
+.botao:active{
     background-color: #003c49;
 }
 
