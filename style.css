@@ -94,6 +94,14 @@ fieldset{
     margin: 20px;
 }
 
+legend{
+    margin: 20px;
+}
+
+textarea{
+    margin: 20px;
+}
+
 main h1 {
     color: var(--cor5);
     font-family: var(--fonte-patrick);
