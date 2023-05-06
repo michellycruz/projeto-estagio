@@ -245,3 +245,47 @@ footer a:hover {
 }
 
 
+/*Carrossel de imagens*/
+
+main > div .carousel {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  main > div .carousel-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  main > div .carousel-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  main > div .prev-button, .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    border: none;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  main > div .prev-button {
+    left: 0;
+  }
+  
+  main > div .next-button {
+    right: 0;
+  }
+  
