@@ -32,9 +32,9 @@
                     </p>
                     <p>
                         Sexo: <br>
-                        <input type="radio" name="radsex" id="mas" checked>
+                        <input type="radio" name="radsex" id="mas" checked value="M">
                         <label for="mas">Masculino</label>
-                        <input type="radio" name="radsex" id="fem">
+                        <input type="radio" name="radsex" id="fem" value="F">
                         <label for="fem">Feminino</label>
                     </p>
                     <p>
@@ -81,6 +81,33 @@
                     <p>
                         <label for="itel2">Número de contato:</label> <br>
                         <input type="number" name="telefone" id="itel2" required>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Anexos</legend>
+                    <p>
+                        <label for="icertidao">Certidão de Nascimento</label>
+                        <input type="file" name="certidao" id="icertidao">
+                    </p>
+                    <p>
+                        <label for="irg">RG responsável (Frente)</label>
+                        <input type="file" name="rg" id="irg">
+                    </p>
+                    <p>
+                        <label for="irg2">RG responsável (Verso)</label>
+                        <input type="file" name="rg2" id="irg2">
+                    </p>
+                    <p>
+                        <label for="irg3">RG contratante (Frente)</label>
+                        <input type="file" name="rg3" id="irg3">
+                    </p>
+                    <p>
+                        <label for="irg4">RG contratante (Verso)</label>
+                        <input type="file" name="rg4" id="irg4">
+                    </p>
+                    <p>
+                        <label for="icomprovante">Comprovante de Resid.</label>
+                        <input type="file" name="comprovante" id="icomprovante">
                     </p>
                 </fieldset>
                 <p>
